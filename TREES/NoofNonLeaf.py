@@ -24,4 +24,4 @@ root.left.right = Node(5)
 root.right.right = Node(6)
 
 # Count leaf nodes
-print("Number of leaf nodes:", NoofLeaf(root))
+print("Number of non leaf nodes:", NoofLeaf(root))

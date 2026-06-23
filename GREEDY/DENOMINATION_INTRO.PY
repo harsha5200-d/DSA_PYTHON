@@ -5,7 +5,7 @@ def change(coins,amount):
     i=n=count=0
 
     while amount>0:
-        
+
         if amount < coins[len(coins)-1]: return -1
 
         n = amount//coins[i]
